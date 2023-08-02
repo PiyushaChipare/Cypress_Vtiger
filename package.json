@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "cypress": "^12.17.1"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.5.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "scripts": {
+    "run headed":"cypress run --headed ",
+    "run headless":"cypress run ",
+    "run":"cypress run "
+  }
+}
+
